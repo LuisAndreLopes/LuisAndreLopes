@@ -18,7 +18,7 @@ body a{
 	-ms-transition:0.5s all;
 }
 .head-nav {
-  float: right;
+  float: left;
 }
 .head-nav ul{
 	margin:0;
@@ -32,18 +32,18 @@ body a{
 	position: relative;
 	display: inline-block;
 	outline: none;
-	color:#090909;
+	color:#ffffff;
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 600;
-	margin: 0.5em 0.8em;
+	margin: 1.9em 0.8em;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1em;
 }
 .head-nav a:hover,
 .head-nav a:focus {
-	outline: #b72706;
+	outline: #1206b7fd;
 }
 .head-nav ul{
 	padding:0;
@@ -63,11 +63,11 @@ body a{
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-weight: 400;
+	font-weight: 500;
 	font-size: 16px;
 }
 .head-nav ul li.active a{
-	color: #b72706;
+	color: #ffffff;
 }
 ul a:hover,
 ul a:focus {
@@ -77,12 +77,12 @@ ul a:focus {
 }
 /* Effect 16: fall down */
 .cl-effect-16 a {
-	color: #b72706;
+	color: #0906b7;
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 
 .cl-effect-16 a::before {
-	color:#b72706;
+	color:#1806b7;
 	content: attr(data-hover);
 	position: absolute;
 	opacity: 0;
