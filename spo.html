@@ -15,9 +15,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="keywords" content="AMBEV,AS RIO" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300,600,800,400' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="css/common.css" />
+<script src="js/jquery.min.js"></script>
+
 </head>
 <body>
-<!-- header -->
+<!-- Cabeçalho -->
 	<div class="header">
 		<div class="container">
 			<div class="logo">
@@ -28,12 +30,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<ul class="cl-effect-16">
 							<li><a href="index.html" data-hover="HOME">home</a></li>
 							<li><a href=" quiz.html" data-hover="QUIZ">Quiz</a></li>
-							<!--
-							]<li><a href=" portfolio.html" data-hover="RECONHECIMENTO">Reconhecimento</a></li>
-							<li><a href=" services.html" data-hover="SERVIÇOS">Serviços</a></li>
-							<li><a href=" 404.html" data-hover="BLOG">blog</a></li>
-							<li><a href=" contact.html" data-hover="LOCALIZAÇÃO">LocalizaçÃo</a></li>
-							-->
+							
 								<div class="clearfix"> </div>
 						</ul>
 							
@@ -41,8 +38,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="clearfix"> </div>
 		</div>
 	</div>
-<!-- header -->
-<!--start-about-->	
+<!-- Cabeçalho -->
+<!-- script-Nav-Mobile -->
+<script>
+		$( "span.menu" ).click(function() {
+		  $( ".head-nav ul" ).slideToggle(300, function() {
+			// Animation complete.
+		  });
+		});
+	</script>
+<!-- script-Nav-Mobile -->
+<!--Corpo da pagina-->	
 	<div class="about">
 		<div class="container">
 			<div class="about-main">
@@ -60,13 +66,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 			</div>
 			</div>
-		
-	
-	<!--End-advantage-->
-	
-
-	
-<!-- later -->
+			<!--Corpo da Pagina-->
+<!-- Acabamento -->
 	<div class="later">
 		<div class="container">
 			<div class="col-md-6 later-left">
@@ -74,8 +75,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="clearfix"> </div>
 		</div>
 	</div>
-<!-- later -->
-<!-- footer -->
+<!-- Acabamento -->
+<!-- rodapé -->
 	<div class="footer">
 		<div class="container">
 			<div class="col-md-3 footer-1">
@@ -103,6 +104,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</div>
 		</div>
 	</div>
-<!-- footer -->
+<!-- Rodapé -->
 </body>
 </html>
