@@ -1,4 +1,4 @@
-function Quiz(){
+function Quizsmart(){
           var inicio=confirm('Bem-Vindo ao Quiz SPO Voce tem certeza de que quer participar?');
           var sair = "<html><head><title>Voce nao quis participar</title></head><body>Obrigado pela sua resposta!<br></body></html>";
           if(inicio==false){document.write(sair);}
@@ -9,7 +9,7 @@ function Quiz(){
           var t=6; //COLOQUE AQUI TOTAL DE PERGUNTAS DO QUIZ !!!!
           t = window.prompt("Digite a Quantidade perguntas:  Maximo 06");
           // LISTA DE PERGUNTAS
-          p[1] = "\n O que e Feras ? \n 1: Varios animais \n 2: Féras e o novo Programa de Reconhecimento.";
+          p[1] = "\n Onde posso bater o ponto? \n 1: Em Casa \n 2: Dentro da Loja \n 3: 200 metros da loja";
           r[1] = 2;
           p[2] = "Você paga sua participação do plano Medico ? \n 1: Não. sou Imortal  \n 2: Sim. Só quando Utilizo. " ; 
           r[2] = 2;
@@ -29,6 +29,7 @@ function Quiz(){
           r[9] = 1;
           p[10] = "O que é LTI ? \n 1: Quase Acidente \n 2: Acidente com afastamento";
           r[10] = 1;
+          
           //ADICIONE MAIS PERGUNTAS AQUI COPIANDO 2 EM 2 LINHAS: P[] = PERGUNTA R[] = RESPOSTA
            for(var i=1;i<=t;i++){o[i] = i;} //gera uma sequencia de t numeros
            for(var i=1;i<=10;i++)          //embaralha a sequencia 10 vezes
